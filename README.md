@@ -1,5 +1,5 @@
 ![test](https://github.com/KlavaD/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
-# Проект API_YAMDB собирает отзывы пользователей на различные произведения. Docker-контейнер
+# Проект API_YAMDB собирает отзывы пользователей на различные произведения. Docker-контейнер. CI и CD проекта api_yamdb
 Проект создавали:
 * ### Клавдия Дунаева
   модели, view и эндпойнты для

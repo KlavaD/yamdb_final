@@ -81,13 +81,11 @@ class UserViewSet(viewsets.ModelViewSet):
         user = request.user
         if request.method == 'GET':
             serializer = UserSerializer(user)
-            return Response(serializer.data,
-                            status=HTTPStatus.OK)
         if request.method == 'PATCH':
             serializer = UserSerializer(user,
                                         data=request.data,
                                         partial=True, )
             serializer.is_valid(raise_exception=True)
             serializer.save(role=user.role)
-            return Response(serializer.data,
-                            status=HTTPStatus.OK)
+        return Response(serializer.data,
+                        status=HTTPStatus.OK)

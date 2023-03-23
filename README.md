@@ -9,6 +9,7 @@
   
   упаковка в контейнер
 
+http://130.193.53.249/admin/
 
 * ### Андрей Мельников
   * система регистрации и аутентификации,
@@ -31,7 +32,7 @@ Python, Django, DRF, Api, Postman
 Клонировать репозиторий и перейти в него в командной строке:
 
 ```
-git clone https://github.com/KlavaD/infra_sp2
+git clone https://github.com/KlavaD/yamdb_final.git
 ```
 
 **Описание команд для запуска приложения в контейнерах**
